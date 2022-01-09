@@ -127,7 +127,7 @@ func main() {
 	bs := binds{}
 	flag.Var(&bs, "bind", "bind to")
 	www := flag.String("www", "", "www data")
-	tcp := flag.Bool("tcp", false, "also listen on TCP")
+	tcp := flag.Bool("tcp", true, "also listen on TCP")
 	flag.Parse()
 
 	if len(bs) == 0 {

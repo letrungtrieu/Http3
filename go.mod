@@ -2,8 +2,9 @@ module http3
 
 go 1.17
 
+require github.com/lucas-clemente/quic-go v0.24.0
+
 require (
-	github.com/lucas-clemente/quic-go v0.24.0
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
